@@ -12,8 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap-wysihtml5
-//= require bootstrap
+//= require foundation-wysihtml5
+//= require foundation
 //= require_tree .
 //= require_self
 

@@ -1,72 +1,72 @@
-# Bootstrap Wysihtml5 for Rails
+# Foundation Wysihtml5 for Rails
 
-[![Gem Version](https://badge.fury.io/rb/bootstrap-wysihtml5-rails.png)](http://badge.fury.io/rb/bootstrap-wysihtml5-rails)
+[![Gem Version](https://badge.fury.io/rb/foundation-wysihtml5-rails.png)](http://badge.fury.io/rb/foundation-wysihtml5-rails)
 
 [![endorse](https://api.coderwall.com/nerian/endorsecount.png)](https://coderwall.com/nerian)
 
-Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites.
+Foundation is a toolkit from Twitter designed to kickstart development of webapps and sites.
 It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.
 
-http://twitter.github.com/bootstrap/
+http://twitter.github.com/foundation/
 
-Bootstrap Wysihtml5 is a plugin for Bootstrap designed by James Hollingworth. It provides a stylish wysiwyg editor for Bootstrap.
+Foundation Wysihtml5 is a plugin for Foundation designed by James Hollingworth. It provides a stylish wysiwyg editor for Foundation.
 
-https://github.com/jhollingworth/bootstrap-wysihtml5
+https://github.com/jhollingworth/foundation-wysihtml5
 
-bootstrap-wysihtml5-rails project integrates it with Rails 3 assets pipeline.
+foundation-wysihtml5-rails project integrates it with Rails 3 assets pipeline.
 
-https://github.com/Nerian/bootstrap-wysihtml5-rails
+https://github.com/Nerian/foundation-wysihtml5-rails
 
 
 ## Rails > 3.1
-Include bootstrap-wysihtml5-rails in Gemfile;
+Include foundation-wysihtml5-rails in Gemfile;
 
 ``` ruby
-gem 'bootstrap-wysihtml5-rails'
+gem 'foundation-wysihtml5-rails'
 ```
 
 or you can install from latest build;
 
 ``` ruby
-gem 'bootstrap-wysihtml5-rails', :require => 'bootstrap-wysihtml5-rails',
-                              :git => 'git://github.com/Nerian/bootstrap-wysihtml5-rails.git'
+gem 'foundation-wysihtml5-rails', :require => 'foundation-wysihtml5-rails',
+                              :git => 'git://github.com/Nerian/foundation-wysihtml5-rails.git'
 ```
 
 and run bundle install.
 
-This gem doesn't include Bootstrap. You can get Bootstrap here: https://github.com/anjlab/bootstrap-rails
+This gem doesn't include Foundation. You can get Foundation here: https://github.com/anjlab/foundation-rails
 
 ## Configuration
 
-Bootstrap-wysihtml5 depends on jquery and bootstrap.
+Foundation-wysihtml5 depends on jquery and foundation.
 
 app/assets/stylesheets/application.css
 ``` css
-*= require bootstrap-wysihtml5
+*= require foundation-wysihtml5
 // or
-*= require bootstrap-wysihtml5/b3
+*= require foundation-wysihtml5/b3
 ```
 
 app/assets/javascripts/application.js
 ```javascript
-//= require bootstrap-wysihtml5
+//= require foundation-wysihtml5
 // or
-//= require bootstrap-wysihtml5/b3
+//= require foundation-wysihtml5/b3
 
 
 You may include all locales like this:
 
-//= require bootstrap-wysihtml5/locales
+//= require foundation-wysihtml5/locales
 
 Or just add the ones that you want
 
-//= require bootstrap-wysihtml5/locales/de-DE
-//= require bootstrap-wysihtml5/locales/es-ES
+//= require foundation-wysihtml5/locales/de-DE
+//= require foundation-wysihtml5/locales/es-ES
 ```
 
 You may need to restart your rails server.
 
-## Using bootstrap-wysihtml5-rails
+## Using foundation-wysihtml5-rails
 
 Just call wysihtml5() with any selector.
 

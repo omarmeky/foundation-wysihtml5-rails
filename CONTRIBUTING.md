@@ -1,5 +1,5 @@
-If this is a set of changes on bootstrap-wysihtml5 itself, then you want to make you pull request here:
+If this is a set of changes on foundation-wysihtml5 itself, then you want to make you pull request here:
 
-https://github.com/jhollingworth/bootstrap-wysihtml5
+https://github.com/jhollingworth/foundation-wysihtml5
 
-If this is a set of changes on bootstrap-wysihtml5-rails, then go ahead
+If this is a set of changes on foundation-wysihtml5-rails, then go ahead
