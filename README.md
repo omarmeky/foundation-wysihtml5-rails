@@ -9,6 +9,10 @@ This is a port of Bootstrap Wysihtml5 to Zurb Foundation.
 
 This project is a fork from [Nerian's `bootstrap-wysihtml5-rails`](https://github.com/Nerian/bootstrap-wysihtml5-rails) and it was modified to work with Zurb Foundation.
 
+## Demo app
+
+You can access: http://foundation-wysihtml5-demo.herokuapp.com/ to see it working, also you can find its code [here](https://github.com/josemarluedke/foundation-wysihtml5-rails-demo).
+
 ## Compatible with Foundation 4 and 5
 
 Tested on Foundation 4 and 5.
