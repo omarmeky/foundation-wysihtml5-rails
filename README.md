@@ -2,20 +2,12 @@
 
 [![Gem Version](https://badge.fury.io/rb/foundation-wysihtml5-rails.png)](http://badge.fury.io/rb/foundation-wysihtml5-rails)
 
-[![endorse](https://api.coderwall.com/nerian/endorsecount.png)](https://coderwall.com/nerian)
 
-Foundation is a toolkit from Twitter designed to kickstart development of webapps and sites.
-It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.
+This is a port of Bootstrap Wysihtml5 to Zurb Foundation.
 
-http://twitter.github.com/foundation/
+[Bootstrap Wysihtml5](https://github.com/jhollingworth/bootstrap-wysihtml5) is a plugin for Bootstrap designed by James Hollingworth. It provides a stylish wysiwyg editor for Bootstrap.
 
-Foundation Wysihtml5 is a plugin for Foundation designed by James Hollingworth. It provides a stylish wysiwyg editor for Foundation.
-
-https://github.com/jhollingworth/foundation-wysihtml5
-
-foundation-wysihtml5-rails project integrates it with Rails 3 assets pipeline.
-
-https://github.com/Nerian/foundation-wysihtml5-rails
+This project is a fork from [Nerian's `bootstrap-wysihtml5-rails`](https://github.com/Nerian/bootstrap-wysihtml5-rails) and it was modified to work with Zurb Foundation.
 
 
 ## Rails > 3.1
@@ -25,34 +17,22 @@ Include foundation-wysihtml5-rails in Gemfile;
 gem 'foundation-wysihtml5-rails'
 ```
 
-or you can install from latest build;
-
-``` ruby
-gem 'foundation-wysihtml5-rails', :require => 'foundation-wysihtml5-rails',
-                              :git => 'git://github.com/Nerian/foundation-wysihtml5-rails.git'
-```
-
 and run bundle install.
 
-This gem doesn't include Foundation. You can get Foundation here: https://github.com/anjlab/foundation-rails
+This gem doesn't include Foundation. You can get Foundation here: https://github.com/zurb/foundation-rails.
 
 ## Configuration
 
-Foundation-wysihtml5 depends on jquery and foundation.
+Foundation-wysihtml5 depends on jquery, foundation and font-awesome.
 
 app/assets/stylesheets/application.css
 ``` css
 *= require foundation-wysihtml5
-// or
-*= require foundation-wysihtml5/b3
 ```
 
 app/assets/javascripts/application.js
 ```javascript
 //= require foundation-wysihtml5
-// or
-//= require foundation-wysihtml5/b3
-
 
 You may include all locales like this:
 
@@ -75,17 +55,11 @@ Just call wysihtml5() with any selector.
 
 <script type="text/javascript">
   $(document).ready(function(){
-
-    $('.wysihtml5').each(function(i, elem) {
-      $(elem).wysihtml5();
-    });
-
+    $('.wysihtml5').wysihtml5();
   })
 </script>
 
 ```
-
-A live example:  http://jsfiddle.net/5UUrg/
 
 ## If using Turbolinks
 
@@ -96,7 +70,7 @@ $(document).on('page:load', function(){
 ```
 
 ## License
-Copyright (c) 2012-2013 Gonzalo Rodríguez-Baltanás Díaz
+Copyright (c) 2014 Josemar Luedke
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
