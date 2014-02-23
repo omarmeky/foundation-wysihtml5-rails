@@ -11,6 +11,7 @@ gem 'coffee-rails'
 # gem 'therubyracer', :platform => :ruby
 
 gem 'uglifier'
-gem 'foundation-wysihtml5-rails', :path => '../'
+gem 'foundation-wysihtml5-rails', path: '../'
 gem 'jquery-rails'
-gem 'foundation-sass'
+gem 'foundation-rails'
+gem 'font-awesome-rails'

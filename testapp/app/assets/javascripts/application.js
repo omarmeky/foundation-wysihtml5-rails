@@ -16,4 +16,4 @@
 //= require foundation
 //= require_tree .
 //= require_self
-
+$(document).ready(function(){ $(document).foundation(); })
