@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Testapp::Application.load_tasks
+FoundationWysihtml5RailsDemo::Application.load_tasks
