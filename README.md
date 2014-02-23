@@ -9,6 +9,9 @@ This is a port of Bootstrap Wysihtml5 to Zurb Foundation.
 
 This project is a fork from [Nerian's `bootstrap-wysihtml5-rails`](https://github.com/Nerian/bootstrap-wysihtml5-rails) and it was modified to work with Zurb Foundation.
 
+## Compatible with Foundation 4 and 5
+
+Tested on Foundation 4 and 5.
 
 ## Rails > 3.1
 Include foundation-wysihtml5-rails in Gemfile;
