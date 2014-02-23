@@ -29,10 +29,6 @@ ul.wysihtml5-toolbar a[data-wysihtml5-command=underline] {
 	text-decoration: underline;
 }
 
-ul.wysihtml5-toolbar a.button.tiny[data-wysihtml5-command=underline] {
-  padding-top: 11px;
-}
-
 ul.wysihtml5-toolbar a.button {
   margin-bottom: 0px
 }
