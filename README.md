@@ -21,6 +21,8 @@ and run bundle install.
 
 This gem doesn't include Foundation. You can get Foundation here: https://github.com/zurb/foundation-rails.
 
+It also has as dependency [`font-awesome`](http://fortawesome.github.io/Font-Awesome/) for the icons. Please add it to your project.
+
 ## Configuration
 
 Foundation-wysihtml5 depends on jquery, foundation and font-awesome.
